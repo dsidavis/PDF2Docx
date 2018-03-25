@@ -1,6 +1,6 @@
 convertPDF2Docx =
 function(ff, docx = gsub("\\.pdf", ".docx", ff), open = TRUE,
-             ascript = "menu.scpt", delay = 25)
+             ascript = "pdfpenConvert2Docx.scpt", delay = 25)
 {
    cmd = sprintf("osascript %s %s", ascript, delay)    
    for(i in seq(along = ff)) {

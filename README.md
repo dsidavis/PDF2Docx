@@ -42,9 +42,7 @@ and the system was sluggish, getting past the password protected files,
 etc. - we now have all but 19 of the 612 files as docx files.
 
 
-## menu.scpt
-
-Script is misnamed now.
+## pdfpenConvert2Docx.scpt
 
 Different delays for different number of pages
 Change the output directory
